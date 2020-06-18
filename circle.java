@@ -43,6 +43,7 @@ public class circle extends point {
         return 2*3.14*r*r;
     }
     public void Circle(){
+        System.out.println("Ban kinh:"+this.r);
         System.out.println("Chu vi la: "+area(r));;
         System.out.println("Dien tich la: "+perimeter(r));
     }
