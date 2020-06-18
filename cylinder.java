@@ -32,7 +32,7 @@ public class cylinder extends circle {
         return super.area(r)*h;
     }
     public void Cylinder(){
-        System.out.println("The tich la: "+this.area(r));
-        System.out.println("Dien tich xung quanh la: "+this.areaAround(r, h));
+        System.out.println("The tich la: "+area(r));
+        System.out.println("Dien tich xung quanh la: "+areaAround(r, h));
     }
 }
